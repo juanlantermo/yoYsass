@@ -1,0 +1,21 @@
+@import "menu";
+$bodyColor:rgb(167, 167, 238);
+body{
+    background-color: $bodyColor ;
+}
+#titulo_principal{
+    color:white;
+    font-size: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style:italic ;
+    margin-top: 30px;   
+    margin-bottom: 30px;
+    background-image: linear-gradient(currentColor, currentColor);
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 2px;
+    transition: background-size .3s;
+        &:hover{
+            background-size: 100% 2px; 
+        }
+}
